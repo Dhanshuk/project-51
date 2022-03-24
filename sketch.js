@@ -39,7 +39,7 @@ bg.scale = 3
 player = createSprite(displayWidth-1150, displayHeight-300, 50, 50);
  player.addImage(pacImg1)
    player.scale = 0.3
-   player.debug = true
+   player.debug = false;
    player.setCollider("rectangle",0,0,300,300)
 
 
@@ -118,7 +118,7 @@ function enemy(){
     ghost.addImage(ghostImg)
     ghost.scale = 0.15
     ghost.velocityX = -3
-    ghost.debug= true
+    ghost.debug= false
     ghost.setCollider("rectangle",0,0,400,400)
    
     ghost.lifetime = 400
